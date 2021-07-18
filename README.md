@@ -1,3 +1,5 @@
+Might be ready tonight....
+
 ## Building BMoreCoin 
 
 ### On *nix
