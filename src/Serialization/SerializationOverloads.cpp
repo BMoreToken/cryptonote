@@ -6,7 +6,7 @@
 
 #include <limits>
 
-#include <stdexcept>
+#include <runtime_error>
 
 namespace CryptoNote {
 
