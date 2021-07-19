@@ -21,8 +21,8 @@
 * CRTL-A CTRL-D
 * screen -S miner
 * ./simplewallet
-** Press G for new wallet, wallet.bin, enter new password
-** start_mining 1 
+* * Press G for new wallet, wallet.bin, enter new password
+* * start_mining 1 
 
 
 
