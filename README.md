@@ -3,7 +3,7 @@
 * P2P 19126
 * RPC 19326
 
-# Ubuntu Install
+# Ubuntu 18 Install
 * wget -O boost_1_55_0.tar.gz https://sourceforge.net/projects/boost/files/boost/1.55.0/boost_1_55_0.tar.gz/download
 * tar xzvf boost_1_55_0.tar.gz
 * cd boost_1_55_0/
@@ -11,11 +11,6 @@
 * ./b2
 * sudo ./b2 install
 
-* sudo apt-get install python-software-properties
-* sudo add-apt-repository ppa:ubuntu-toolchain-r/test
-* sudo apt-get update
-* sudo apt-get install gcc-4.8
-* sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.8 50
 
 
 ## Building BMoreCoin 
