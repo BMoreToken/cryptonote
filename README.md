@@ -1,4 +1,7 @@
-Might be ready tonight....
+* Might be ready tonight....
+
+* P2P 19126
+* RPC 19326
 
 ## Building BMoreCoin 
 
