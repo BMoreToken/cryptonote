@@ -3,6 +3,17 @@
 * P2P 19126
 * RPC 19326
 
+# Ubuntu
+* wget -O boost_1_55_0.tar.gz https://sourceforge.net/projects/boost/files/boost/1.55.0/boost_1_55_0.tar.gz/download
+* tar xzvf boost_1_55_0.tar.gz
+* cd boost_1_55_0/
+* ./bootstrap.sh --prefix=/usr/
+* ./b2
+* sudo ./b2 install
+
+
+
+
 ## Building BMoreCoin 
 
 ### On *nix
@@ -10,6 +21,7 @@
 Dependencies: GCC 4.7.3 or later, CMake 2.8.6 or later, and Boost 1.55.
 
 You may download them from:
+
 
 - [ ] * http://gcc.gnu.org/ (  sudo apt install gcc )
 - [ ] * http://www.cmake.org/ ( sudo apt install cmake)
