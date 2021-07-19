@@ -1,7 +1,8 @@
-* Might be ready tonight....
+# Passing
+* Ubuntu 18.04.5 LTS
+# Failing
+* Ubuntu 20.04.2 LTS
 
-* P2P 19126
-* RPC 19326
 
 # Ubuntu 18 Install
 * wget -O boost_1_55_0.tar.gz https://sourceforge.net/projects/boost/files/boost/1.55.0/boost_1_55_0.tar.gz/download
@@ -11,6 +12,9 @@
 * ./b2
 * sudo ./b2 install
 
+## Ports
+* P2P 19126
+* RPC 19326
 
 
 ## Building BMoreCoin 
