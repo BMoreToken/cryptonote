@@ -15,6 +15,16 @@
 * ./b2
 * sudo ./b2 install
 * git clone https://github.com/BMoreToken/bmorecoin.git ~/bmorecoin; cd ~/bmorecoin; make
+* screen -S bmorecoind
+* cd ~/bmorecoin/build/release/src
+* ./bmorecoind --log-file ~/bmorecoind.log
+* CRTL-A CTRL-D
+* screen -S miner
+* ./simplewallet
+** Press G for new wallet, wallet.bin, enter new password
+** start_mining 1 
+
+
 
 ## Ports
 * P2P 19126
