@@ -27,10 +27,12 @@
 * tar xzvf boost_1_55_0.tar.gz
 * cd boost_1_55_0/
 * ./bootstrap.sh --prefix=/usr/
-## Error
 * ./b2
+## Error
+* make fails
 ## Trying
-* sudo apt-get install libbz2-dev
+* sudo snap install docker
+* git clone https://github.com/BMoreToken/bmorecoin.git ~/bmorecoin; cd ~/bmorecoin; docker build .
 
 # Important Ports
 * P2P 19126
