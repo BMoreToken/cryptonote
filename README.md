@@ -22,16 +22,8 @@
 ## Working
 * sudo apt update
 * sudo apt -y upgrade
-* sudo apt -y install g++ gcc cmake
-* wget -O boost_1_55_0.tar.gz https://sourceforge.net/projects/boost/files/boost/1.55.0/boost_1_55_0.tar.gz/download
-* tar xzvf boost_1_55_0.tar.gz
-* cd boost_1_55_0/
-* ./bootstrap.sh --prefix=/usr/
-* ./b2
-## Error
-* make fails
-## Trying
 * sudo snap install docker
+## Trying
 * git clone https://github.com/BMoreToken/bmorecoin.git ~/bmorecoin; cd ~/bmorecoin; docker build .
 
 # Important Ports
