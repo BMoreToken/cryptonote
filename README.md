@@ -1,10 +1,4 @@
-# Passing
-* Ubuntu 18.04.5 LTS
-# Failing
-* Ubuntu 20.04.2 LTS ( Working on )
-
-
-# Ubuntu Install
+# Ubuntu 18.04.5 LTS Install
 * sudo apt update
 * sudo apt -y upgrade
 * sudo apt -y install g++ gcc cmake
@@ -24,14 +18,24 @@
 * * Press G for new wallet, wallet.bin, enter new password
 * * start_mining 1 
 
+# Ubuntu 20.04.2 LTS Install
+## Working
+* sudo apt update
+* sudo apt -y upgrade
+* sudo apt -y install g++ gcc cmake
+* wget -O boost_1_55_0.tar.gz https://sourceforge.net/projects/boost/files/boost/1.55.0/boost_1_55_0.tar.gz/download
+* tar xzvf boost_1_55_0.tar.gz
+* cd boost_1_55_0/
+* ./bootstrap.sh --prefix=/usr/
+## Error
+* ./b2
 
-
-## Ports
+# Important Ports
 * P2P 19126
 * RPC 19326
 
 
-## Building BMoreCoin 
+# Old Instructions
 
 ### On *nix
 
