@@ -29,6 +29,8 @@
 * ./bootstrap.sh --prefix=/usr/
 ## Error
 * ./b2
+## Trying
+* sudo apt-get install libbz2-dev
 
 # Important Ports
 * P2P 19126
