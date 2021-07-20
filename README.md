@@ -1,7 +1,7 @@
 # Passing
 * Ubuntu 18.04.5 LTS
 # Failing
-* Ubuntu 20.04.2 LTS
+* Ubuntu 20.04.2 LTS ( Working on )
 
 
 # Ubuntu Install
