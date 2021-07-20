@@ -7,6 +7,6 @@ RUN wget -O boost_1_55_0.tar.gz https://sourceforge.net/projects/boost/files/boo
 RUN tar xzvf boost_1_55_0.tar.gz
 RUN cd boost_1_55_0/ ; ./bootstrap.sh --prefix=/usr/ ; ./b2 ; ./b2 install
 RUN git clone https://github.com/BMoreToken/bmorecoin.git ~/bmorecoin; cd ~/bmorecoin; make
-
 EXPOSE 19126
 EXPOSE 19326
+CMD ["sh","-c","cd /root/bmorecoin/build/release/src; ./bmorecoind --log-file /root/bmorecoind.log"]
