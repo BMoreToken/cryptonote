@@ -1,3 +1,24 @@
+# Docker on Linux 
+## Need to test distro that uses yum
+* git clone https://BMoreToken/bmorecoin.git
+* chmod +x install.sh
+* ./install.sh
+
+## Available Commands
+* docker_install.sh - running more than once is bad
+* docker_start.sh - Start the docker container
+* docker_stop.sh - Stop the docker container
+* docker_bash.sh - Enter the container to access wallet / node
+* update.sh - CAUTION!! this will build a new container and node/wallet, you will still have access to the last container in case you need to access the wallet again
+* NEED AN UPDATE THAT LEAVES THE WALLET IN PLACE 
+
+
+
+# Docker on Windows
+## A note on required setup https://ubuntu.com/tutorials/windows-ubuntu-hyperv-containers#2-requirements
+* (test and write up)
+
+
 # Ubuntu 18.04.5 LTS Install
 * sudo apt update
 * sudo apt -y upgrade
