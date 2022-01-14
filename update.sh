@@ -21,4 +21,5 @@ chmod +x docker_stop.sh
 chmod +x docker_bash.sh
 chmod +x install.sh
 chmod +x update.sh
+docker build .
 ./docker_start.sh
