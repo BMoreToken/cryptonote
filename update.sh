@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "Stopping Docker"
 ./docker_stop.sh
 echo "Unsetting Permissions" 
