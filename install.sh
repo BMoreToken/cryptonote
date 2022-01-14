@@ -7,8 +7,8 @@ chmod +x docker_stop.sh
 chmod +x docker_bash.sh
 chmod +x update.sh
 echo "Installing startup and shutdown scripts"
-sudo cp docs/bmorecoind.service /etc/systemd/system/bmorecoind.service
-sudo cp docs/shutdown_node.service /etc/systemd/system shutdown_node.service
+sudo cp /home/ubuntu/bmorecoin/docs/bmorecoind.service /etc/systemd/system/bmorecoind.service
+sudo cp /home/ubuntu/bmorecoin/docs/shutdown_node.service /etc/systemd/system shutdown_node.service
 sudo systemctl daemon-reload
 sudo systemctl enable start_bmorecoind.service
 sudo systemctl enable stop_bmorecoind.service
