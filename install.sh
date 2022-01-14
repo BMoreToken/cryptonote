@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "Updating Code"
 git pull
 echo "Setting Permissions"
