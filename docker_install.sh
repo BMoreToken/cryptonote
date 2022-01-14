@@ -1,3 +1,4 @@
+#!/bin/bash
 # apt
 sudo apt install -y curl
 # yum
