@@ -1,3 +1,5 @@
+[![Ubuntu 18.04](https://github.com/BMoreToken/bmorecoin/actions/workflows/ubuntu18.yml/badge.svg)](https://github.com/BMoreToken/bmorecoin/actions/workflows/ubuntu18.yml)
+
 # Docker on Linux 
 ## Need to test distro that uses yum
 * git clone https://BMoreToken/bmorecoin.git
