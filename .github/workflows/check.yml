@@ -39,7 +39,7 @@ jobs:
           mkdir "$build_folder"
           cd "$build_folder"
           cmake -G "Visual Studio 16 2019" ..
-          msbuild bmorecoin.sln /p:Configuration=Release /m
+          msbuild CryptoNote.sln  /p:Configuration=Release /m
           cd src\Release
           Compress-Archive -Path *.exe -DestinationPath "$release_name.zip"
           $sha256 = (Get-FileHash "$release_name.zip").Hash
@@ -105,7 +105,7 @@ jobs:
         id: build
         run: |
           sudo apt-get update
-          sudo apt-get install -y libboost-all-dev
+          sudo apt-get install -y libboost1.67-all-dev
           build_folder="build/debug"
           ccx_version=${GITHUB_SHA::7}
           ccx_ver_folder=$(echo $ccx_version | sed 's/\.//g')
