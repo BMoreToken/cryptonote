@@ -2,8 +2,8 @@ name: Windows
 
 on:
   push:
-    branches:
-      - "**"
+    tags:
+      - "*"
 
 jobs:
   build-windows:
