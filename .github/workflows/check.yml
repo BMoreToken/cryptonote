@@ -173,7 +173,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          brew install boost qt@5
+          brew install cmake boost qt@5
 
       - name: Clone BMoreCoin
         run: |
